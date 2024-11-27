@@ -1,0 +1,38 @@
+/* App.css */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  background: #333;
+  color: white;
+  padding: 1rem;
+}
+
+.navbar ul {
+  display: flex;
+  list-style: none;
+}
+
+.navbar ul li {
+  margin: 0 1rem;
+}
+
+.navbar ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+.user-management,
+.role-management {
+  padding: 2rem;
+}
+
+button {
+  padding: 0.5rem 1rem;
+  margin: 0.5rem;
+}
